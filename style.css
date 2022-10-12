@@ -139,7 +139,7 @@ header p{
 
 nav {
     background-color: var(--cor3);
-    padding: .7em;
+    padding: .6em;
     margin-bottom: .6em;
     box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.445);
 }
@@ -147,11 +147,12 @@ nav {
 nav a{
     font-family: var(--font-destaque);
     font-weight: bold;
+    font-size: .9em;
     color: var(--cor0);
     text-decoration: none;
     padding: 8px;
     border-radius: 8px;
-    margin: 1.1em;
+    margin: .6em;
     transition-duration: .6s;
 }
 
@@ -334,7 +335,7 @@ footer{
 
 footer p{
     font-family: var(--font-destaque);
-    font-size: .8em;
+    font-size: .6em;
     font-weight: bold;
     color: var(--cor0);
     min-width: 300px;
@@ -343,7 +344,7 @@ footer a{
     min-width: 300px;
     text-decoration: none;
     background-color: var(--cor0);
-    padding: 2px 4px ;
+    padding: 2px 2px ;
     color: var(--cor2);
     border-radius: 6px;
     transition-duration: .6s;
