@@ -26,7 +26,8 @@
 
 body{
     background-color: var(--cor1);
-    font-family: var(--font-padrao); 
+    font-family: var(--font-padrao);
+    overflow-x: hidden;
 }
 
 main{
