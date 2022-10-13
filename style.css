@@ -26,17 +26,17 @@
 
 body{
     background-color: var(--cor1);
-    font-family: var(--font-padrao);
+    font-family: var(--font-padrao); 
 }
 
 main{
-    min-width: 450px;
+    min-width: 400px;
     max-width: 1000px;
-    margin: auto;
+    min-height: 800px;
     margin-bottom: 10px;
     background-color: var(--cor0);
-    padding: 12px;
-    box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.425);
+    margin: 0px auto;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.418);
 }
 
 main article{
@@ -112,9 +112,7 @@ main div > article > picture > img{
 header{
     background-color: var(--cor0);
     text-align: center;
-    min-width: 300px;
-    min-height: 150px;
-    width: auto;
+
 }
 
 header h1{
@@ -132,6 +130,7 @@ header p{
     font-weight: bold;
     font-style: normal;
     color: var(--cor3);
+    padding-bottom: .4em;
     margin: 0px 6px;
     text-shadow: 0px 1px 1px var(--cor3);
     
@@ -141,7 +140,7 @@ nav {
     background-color: var(--cor3);
     padding: .6em;
     margin-bottom: .6em;
-    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.445);
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.418);
 }
 
 nav a{
@@ -161,20 +160,20 @@ nav a:hover{
     color: var(--cor0);
 }
 
-div{
+main div{
     background-color: var(--cor0);
     height: auto;
     text-align: left;
     margin: 0px auto;
-
+    padding: 8px;
 }
 
 div.video{
     background-color: var(--cor3);
     position: relative;
-    margin: 0px -12px 10px -12px;
-    padding: 20px;
-    padding-bottom: 54.8%;
+    margin: 0px -8px 10px -8px;
+    padding: 20px 0px;
+    padding-bottom: 53.8%;
 }
 
 div.video > iframe{
@@ -326,12 +325,9 @@ input[type="date"]{
 footer{
     background-color: var(--cor3);
     text-align: center;
-    min-width: 300px;
-    max-width: 1000px;
-    padding: 8px 12px;
+    padding: 8px 0px;
     margin: 0px auto;
-    margin-bottom: 8px;
-    box-shadow: 8px 6px 6px 0px rgba(0, 0, 0, 0.445);
+    margin-top: 8px;
 }
 
 footer p{
@@ -339,10 +335,8 @@ footer p{
     font-size: .6em;
     font-weight: bold;
     color: var(--cor0);
-    min-width: 300px;
 }
 footer a{
-    min-width: 300px;
     text-decoration: none;
     background-color: var(--cor0);
     padding: 2px 2px ;
