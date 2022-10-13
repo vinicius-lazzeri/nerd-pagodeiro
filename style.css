@@ -55,8 +55,7 @@ main article > p > abbr{
 
 main article > p > a{
     text-decoration: none;
-    color: var(--cor0);
-    background-color: var(--cor2);
+    color: var(--cor1);
     padding: 2px 4px;
     border-radius: 8px;
 
